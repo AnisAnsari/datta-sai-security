@@ -11,7 +11,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-bottom: 0.5rem;
   font-family: "Libre Baskerville", serif;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.2; 
   color: #000;
 }
 .bg-dark {
@@ -429,6 +429,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   border-color: transparent;
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.2);
 }
+.team-item img {
+  width: 100%;
+    height: 350px;
+    object-fit: contain;
+}
 
 /*** Testimonial ***/
 .testimonial-img {
@@ -824,6 +829,12 @@ h2 {
   border-color: transparent;
 }
 #client img {
-  width: 200px;
+  width: 100%;
   height: 200px;
+}
+
+.certificate img {
+  width: 100%;
+  height: 300px;
+
 }
